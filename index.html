@@ -1,0 +1,95 @@
+<!DOCTYPE html>     <!-- define que es version 5-->
+<html lang="es">    <!-- lenguaje -->
+<head>
+    <meta charset="UTF-8">          <!-- Conjunto de caracteres -->
+    <meta name="author" content="IHC">    <!-- declarando la metainformación -->
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/estilo.css"> <!-- conectar con el css para los estilos, puede haver varios estilos para diferentes partes -->
+
+</head>
+<body>
+    <header>
+        <h1 id="titulo">titulo</h1> <!-- Mas grande a mas pequeño -->
+        <h2>ok</h2>
+        <h3 id="mio">ok</h3>
+        <h3>ejeje</h3>
+        <h4>ko</h4>
+        <h5>ko</h5>
+        <h6>ko</h6>
+    </header>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet, culpa cum dignissimos dolorem esse expedita hic inventore minima, molestiae odit quidem quod sed sint soluta ullam vitae voluptate voluptates!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aut cupiditate excepturi iusto soluta. A dignissimos excepturi harum molestiae molestias officia provident quidem quos. Maiores molestiae nisi quae vel? Aut?</p>
+        <p><strong> Texto en negrita Lorem ipsum dolor <mark>texto resaltado</mark>sit amet, consectetur adipisicing elit.</strong></p>
+
+    <main>
+        <p>2 <sup>ejejejej</sup>Ad culpa cupiditate distinctio <del>traza linea </del>ex incidunt, inventore iusto laborum molestias nam, numquam officiis placeat provident quos saepe sapiente sunt voluptatibus? Expedita, odit.</p>
+
+        <ul>  <!-- ul son la viñetas o puntos negros -->
+            <li>Etiquetas HTML básicas </li>
+            <li>Nociones básicas de HTML</li>
+            <li>Editores de textos </li>
+        </ul>
+
+        <ol> <!-- ol son numeros como viñetas -->
+            <li>Etiquetas HTML básicas </li>
+            <li>Nociones básicas de HTML</li>
+            <li>Editores de textos </li>
+        </ol>
+
+        <a href="prueba.html" >Enlace misma pestaña</a> <!-- anclar otro archivo a este (crea un enlace) -->
+        <a href="prueba.html" target="_blank">Enlace nueva pestaña</a>
+        <a href="https://www.google.com" target="_blank">Enlace Google</a> <!-- para colocar una url compelta de otro dominio -->
+
+        <table>
+            <thead>
+            <tr>
+                <th>tag</th>
+                <th>Define celdas del encabezanndo</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>table</td>
+                <td> Define una tabla</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>define the header</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td>total</td>
+                <td>total</td>
+            </tr>
+            </tfoot>
+        </table>
+
+        <div>
+            <a href="prueba.html" >Ahora los enlaces entan separados Enlace misma pestaña</a>
+        </div>
+        <div>
+            <a href="prueba.html" target="_blank">Enlace nueva pestaña</a>
+        </div>
+        <div><a href="https://www.google.com" target="_blank">Enlace Google</a></div>
+
+        <!-- Primero descargar una imagen, luego copiar la imagen en la carpeta img y poner la dirrección de la imagen abajo -->
+        <!-- <img src="img/fruit.jpg" alt=""> -->
+
+        <!-- Para que toda la imagen sea un Link, y colocar el link de donde obtuvimos la imagen -->
+        <a href="https://www.pexels.com/es-es/foto/comida-sano-madera-playa-6794897/"><img src="img/fruit.jpg" alt=""></a>
+
+    </main>
+
+    <footer>
+        <!-- Mapear: Para cuando poner el link en una parte específica de la img, cuando pasa el cursor, solo esa parte damos clcik -->
+        <img src="img/fruit2.jpeg" usemap="#fruit" alt="">
+        <map name="fruit">
+            <area shape="circle" coords="630, 350, 100" href="https://www.pexels.com/es-es/foto/monton-de-tomates-rojos-533280/" alt="">
+        </map>
+    </footer>
+
+</body>
+</html>
