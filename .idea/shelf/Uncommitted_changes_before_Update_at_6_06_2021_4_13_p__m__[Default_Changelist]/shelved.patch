@@ -1,0 +1,19 @@
+Index: ejemplo.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ejemplo.html b/ejemplo.html
+--- a/ejemplo.html	(revision ae7944576aca0f72e8e25b03451a7722f46fb251)
++++ b/ejemplo.html	(date 1622866846806)
+@@ -6,5 +6,7 @@
+ </head>
+ <body>
+ 
++    <h1>Probando</h1>
++
+ </body>
+ </html>
+\ No newline at end of file
