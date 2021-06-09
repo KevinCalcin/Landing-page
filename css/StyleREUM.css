@@ -17,7 +17,7 @@
 .menu li {
     display: inline-block;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 28px;
 }
 
 .menu li a{
@@ -35,7 +35,7 @@
 
 .menu li:nth-child(n+3) {
     float:right;
-    margin-top:40px;
+    margin-top:32px;
 }
 
 #button1,#button2 {
@@ -61,6 +61,7 @@
 #imgGrande1 {
     width: 100%;
     height: 100%;
+
 }
 
 #REUM {
