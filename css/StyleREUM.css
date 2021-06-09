@@ -39,10 +39,23 @@
 }
 
 #button1,#button2 {
-
-    padding: 0;
+    border: rebeccapurple 1px solid;
+    border-radius: 4px;
+    background: rebeccapurple;
+    padding: 8px;
     margin-right: 20px;
+    color:white;
+    font-size: 20px;
 }
+
+#button1:hover {
+    color: rebeccapurple;
+}
+
+#button2:hover {
+    color: rebeccapurple;
+}
+
 
 
 #imgGrande1 {
