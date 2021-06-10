@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gill Sans MT", fantasy;
+}
+
+#ImagenGrande {
+    position: absolute;
+    width: 1903px;
+    height: 900px;
+}
+
+#barrapro {
+    background-color: #B08EF7;
+}
+
+#barrapro ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#barrapro ul li{
+    display: inline-block;
+}
+
+#barrapro ul li a{
+    color: #030303;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+
+    font-size: 23px;
+}
+
+#barrapro ul li a:hover{
+    background-color: mediumpurple;
+}
+
+#PlanPro {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+#FotoPlanPro {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+#descripcionPro {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    /*line-height: 2;*/
+}
+
+h4  {
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#beneficios {
+    /*margin: auto;
+    width: auto;
+    padding: 10px;*/
+    text-align: center;
+    width: auto;
+    font-size: 28px;
+}
+
+/*#beneficios {
+
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}*/
+
+/*#buttonpro {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #446AEE;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width: 436px;
+    cursor: pointer;
+} */
+
+#buttonpro {
+    margin: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #446AEE;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width: 436px;
+    cursor: pointer;
+}
+
+#buttonpro:hover{
+    background-color: #4c90ff;
+}
