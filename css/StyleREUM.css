@@ -89,7 +89,7 @@
 .B1 {
     display: block;
     text-align: center;
-    background: white;
+    background: red;
     height: 120px;
     width: 510px;
     margin:auto;
@@ -104,6 +104,9 @@
 
 .beneficios {
     background: blue;
+    height: 340px;
+    width: 1517px;
+    margin:auto;
 }
 .componente {
     display:inline-block;
