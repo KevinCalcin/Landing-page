@@ -6,7 +6,14 @@
 @font-face{
     font-family: CB;
     src: url(CB.ttf);
+
 }
+
+@font-face {
+    font-family: CR;
+    src: url(C.ttf);
+}
+
 
 .menu {
     list-style: none;
@@ -97,15 +104,26 @@
 
 .beneficios {
     background: blue;
-    margin: auto;
 }
 .componente {
     display:inline-block;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .IMG {
     width: 300px;
     display: inline;
+}
+.componente  p {
+    background: greenyellow;
+    font-family: CR;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    margin-top:10px;
 }
 
 
