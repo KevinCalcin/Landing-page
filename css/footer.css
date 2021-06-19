@@ -1,0 +1,126 @@
+
+footer {
+    background-color: #B08EF7;
+    padding: 5% 0;
+}
+
+#contenedor {
+    border: 2px solid brown;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer section {
+    width: 30%;
+}
+
+footer li {
+    list-style: none;
+}
+
+/* Sección 1 y 3 (.enlaces) */
+.enlaces {
+    border: 1px solid #000;
+}
+
+.enlaces ul {
+    padding: 0;
+    border: 2px solid aqua;
+    text-align: center;
+    margin: 0;
+}
+
+.enlaces li {
+    border: 1px solid chartreuse;
+}
+
+.enlaces p {
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*para los links*/
+.enlaces ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.enlaces ul li:hover {
+    font-weight: bold;
+}
+
+.enlaces li {
+    margin-top: 5%;
+}
+
+/*Seccion 1: (de izquierda a derecha) */
+#seccion1 ul {
+    margin: 15%;
+}
+/* Fin de la sección 1 */
+
+/* Sección 3*/
+.enlaces #contenedorEnlaces {
+    border: 2px solid aqua;
+    margin: 5%;
+}
+/* Fin de la sección 3 */
+
+/* Sección 2 (Redes sociales) */
+#seccion2 {
+    border: 2px solid chartreuse;
+}
+
+/* Para el nombre REUM */
+#logo {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid salmon;
+}
+
+#logo p {
+    border: 1px solid aqua;
+    font-size: 25px;
+    margin: 10% 0 0 0;
+}
+
+hr {
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.redesSociales ul {
+    border: 3px solid darkorange;
+    padding: 0;
+}
+
+.redesSociales ul li{
+    border: 1px solid aqua;
+    width: 100%;
+    padding: 0;
+}
+
+.redesSociales ul a:hover {
+    opacity: 70%;
+    /*width: 100%;
+    height: 100%;
+    margin: 0 auto;
+*/}
+.redesSociales img {
+    width: 100%;
+    max-width: 70px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+
+/* Fin de la sección 2 */
