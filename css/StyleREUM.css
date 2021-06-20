@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+* {margin:0;padding:0;box-sizing:border-box;}
 
 @font-face{
     font-family: CB;
@@ -14,170 +11,249 @@
     src: url(C.ttf);
 }
 
+.container-fluid {
+    padding: 0px;
+}
 
-.menu {
-    list-style: none;
+.bg-purple {
     background: #B08EF7;
-    width: 100%;
-    height: 90px;
-}
-.menu li {
-    display: inline-block;
-    text-align: center;
-    margin-top: 28px;
 }
 
-.menu li a{
+
+.navbar li  {
+    border-width:0px;
+    margin: 0px;
+}
+
+
+.navbar {
+    border:  0px;
+    padding: 0px;
+}
+
+.navbar-right {          /*queda */
+    position: relative;
+    left: 78%;
+    transform: translatex(-78%);
+}
+
+.style-text {             /*queda*/
+
     text-decoration: none;
     font-family:CB;
     font-size:23px;
-    color:black;
-    padding:40px;
+    border:0px;
 }
 
-.menu li a:hover{
-    background:mediumpurple;
+.style-text li a{             /*queda*/
+    color: black;
+    padding: 28px;
 
 }
 
-.menu li:nth-child(n+3) {
-    float:right;
-    margin-top:32px;
+
+.style-text2 {             /*queda*/
+    text-decoration: none;
+    font-family:CB;
+    font-size:28px;
+    border:0px;
+    background: #B08EF7;
 }
 
-#button1,#button2 {
-    border: rebeccapurple 1px solid;
+.style-text2 li a{
+    text-align: center;
+    color: white;
+}
+
+.navbar-right li{
     border-radius: 4px;
     background: rebeccapurple;
-    padding: 8px;
-    margin-right: 20px;
+    margin-right:  20px;
     color:white;
     font-size: 20px;
 }
 
-#button1:hover {
-    color: rebeccapurple;
+.navbar li a:hover {
+    color: black;
+    background: mediumpurple;
 }
 
-#button2:hover {
-    color: rebeccapurple;
-}
-
-.M {
-    display: block;
-    text-align: center;
-}
-
-
-#imgGrande1 {
-    border: 0px;
-    width: 1517px;
-    height: 600px;
-
-}
-
-#REUM {
-    position: absolute;
-    top: 200px;
-    left: 305px;
-    font-size: 80px;
-    font-family: CB;
+.style-REUM {
+    font-family:CB;
     color: white;
-
 }
 
-.B1 {
-    display: block;
-    text-align: center;
-    background: red;
-    height: 120px;
-    width: 510px;
-    margin:auto;
+.thumbnail {
+    position: relative;
 }
 
-.B1 h1{
-    font-family: CB;
-    font-size: 36px;
-    color:black;
-    padding-top: 20px;
-}
-
-.beneficios {
-    background: blue;
-    height: 340px;
-    width: 1517px;
-    margin:auto;
-}
-.componente {
-    display:inline-block;
-    margin-top: 30px;
-    margin-left: 115px;
-}
-
-.IMG {               /*tamaño de la imegenes de beneficios*/
-    width: 350px;
-    display: inline;
-}
-.componente  p {
-    background: greenyellow;
-    font-family: CR;
-    font-size: 20px;
-    text-align: center;
-    width: 250px;
-    margin: auto;
-    margin-top:10px;
-}
-
-.M2 {
-    display: block;
-    text-align: center;
-    height: 500px;
-}
-#B {
+.caption {
     position: absolute;
-    top: 1260px;
-    left:450px;
-    width: 580px;
-    height: 210px;
-    font-size: 56px;
-    font-family: CR;
-    color: Black;
-    background-color: rgba(255,255,255,0.6);
-
-
+    top: 5vw;
+    left: 20vw;
+    font-size: 5vw;
 }
-#imgGrande2 {
+
+.style-segundo {
+    font-family:CB;
+    color: black;
+    font-size: 30.72px;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.row-medio {
+width: 27vw;
+}
+
+.style-componentes {
+    margin: 50px;
     border: 0px;
-    width: 1517px;
+}
+
+.style-tercero {
+ padding-top: 4vw ;
+    padding-bottom:4vw ;
+}
+
+.style-text3 {             /*queda*/
+    text-decoration: none;
+    font-family:CR;
+    font-size:28px;
+    border:0px;
+}
+
+.caption2 {
+    position: absolute;
+    top: 14vw;
+    left: 27vw;
+    font-size: 3.6458333333333335vw;
+}
+.style-cuarto {
+    font-family:CR;
+    color: black;
+    text-align: center;
+    background: rgba(255,255,255,0.5)
+}
+.row-medio2 {
+    width: 45vw;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #B08EF7;
+    padding: 5% 0;
+}
+
+#contenedor {
+    border: 2px solid brown;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer section {
+    width: 30%;
+    margin-top:0px;
+}
+
+footer li {
+    list-style: none;
+}
+
+/* Sección 1 y 3 (.enlaces) */
+.enlaces {
+    border: 1px solid #000;
+}
+
+.enlaces ul {
+    padding: 0;
+    border: 2px solid aqua;
+    text-align: center;
+    margin: 0;
+}
+
+.enlaces li {
+    border: 1px solid chartreuse;
+}
+
+.enlaces p {
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 0;
+}
+
+.enlaces li {
+    margin-top: 5%;
+}
+
+
+/*Seccion 1: (de izquierda a derecha) */
+#seccion1 ul {
+    margin: 15%;
+}
+/* Fin de la sección 1 */
+
+/* Sección 3*/
+.enlaces #contenedorEnlaces {
+    border: 2px solid aqua;
+    margin: 5%;
+}
+/* Fin de la sección 3 */
+
+/* Sección 2 (Redes sociales) */
+#seccion2 {
+    border: 2px solid chartreuse;
+}
+
+/* Para el nombre REUM */
+#logo {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid salmon;
+}
+
+#logo p {
+    border: 1px solid aqua;
+    font-size: 25px;
+    margin: 10% 0 0 0;
+}
+
+hr {
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.redesSociales ul {
+    border: 3px solid darkorange;
+    padding: 0;
+    display: flex;
+}
+
+.redesSociales ul li{
+    border: 1px solid aqua;
+    width: 100%;
+}
+
+.redesSociales ul a {
+    border: 1px solid crimson;
+    width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
-
-
-
-
-
-#cp {
-    position: absolute;
-    width: 300px;
-    top: 1250px;
-    left: 100px;
-    font-family: "Gill Sans MT";
-    font-size: 20px;
+.redesSociales img {
+    width: 100%;
+    height: auto;
+    max-width: 70px;
+    border: 1px solid #000000;
 }
+/* Fin de la sección 2 */
 
-#cs {
-    position: absolute;
-    top: 1250px;
-    left: 800px;
-    font-family: "Gill Sans MT";
-    font-size: 20px;
-}
-
-#ct {
-    position: absolute;
-    width: 250px;
-    top: 1250px;
-    left: 1500px;
-    font-family: "Gill Sans MT";
-    font-size: 20px;
-}
+/* Fin del FOOTER */

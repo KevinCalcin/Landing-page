@@ -2,97 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <title>REUM</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/StyleREUM.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/sobrePro_descarga.css">
+    <link rel="stylesheet" href="css/StyleREUM.css">
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
 
-
 <body>
+
 <header>
-    <ul class = " menu">
-        <li><a  href="#">Inicio</a></li>
-        <li><a href="#">Acerca de REUM</a></li>
-        <li><a id ="button2" href="#">REGISTRARSE</a></li>
-        <li><a id="button1" href="#">INICIAR SESION</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg  black bg-purple">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  "></span>
+            </button>
+            <div class="  collapse navbar-collapse text-left" id="navbarNav">
+
+
+                    <ul class="navbar-nav  style-text">
+
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link " href="#">Acerca de REUM</a>
+                    </li>
+                    </ul>
+
+                <ul class="navbar-nav navbar-right style-text2">
+
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-bottom " href="#">REGITRARSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-bottom " href="#">INICIAR SESION</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 </header>
 
-<div class="M">
-    <h1 id="REUM">REUM</h1>
-    <img id="imgGrande1" src="img/FotoReum1.jpg" alt="">
-</div>
+
 
 <main>
 
-
-    <div class="B1">
-        <h1 id="cosas">"Cosas innovadoras
-            que hace nuestra plataforma"</h1>
-    </div>
-
-    <section>
-    <div class="beneficios">
-        <div class = "componente">
-            <img class="IMG" src="img/PrimeraCosa.jpg" alt="">
-            <div>
-                <p>1.Conoce las recomendaciones de tus invitados desde el inicio</p>
-            </div>
-        </div>
-        <div class = "componente">
-            <img class="IMG" src="img/SegundaCosa.jpg" alt="">
-            <div>
-                <p>2.Forma grupos de apoyo</p>
-            </div>
-        </div>
-        <div class = "componente">
-            <img class="IMG"  src="img/TerceraCosa.jpg" alt="">
-            <div>
-                <p>3.Mantén un contacto directo con tus invitados</p>
+    <section class="primera parte">
+    <div class="row">
+        <div class="thumbnail ">
+            <img  src="img/FotoReum1.jpg " alt="" class="img-fluid">
+            <div class="caption style-REUM">
+                <p>REUM</p>
             </div>
         </div>
     </div>
     </section>
 
-    <div class="M2">
-        <h2 id="B">"Haz que tu reunión sea el mejor para tus invitados"</h2>
-        <img id="imgGrande2" src="img/SegundaCosa.jpg" alt="">
-    </div>
+    <section class="segunda parte">
+        <div class="row justify-content-center" >
+            <div class="thumbnail row-medio ">
+                <div class=" style-segundo">
+                    <p>"Cosas innovadoras que hace nuestra plataforma"</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+            <section class="style-text3">
+                <div class="row row-cols-1 row-cols-md-3 g-4 style-componentes">
+                    <div class="col-auto">
+                        <div class="card  border-0">
+                            <img class="img-fluid " src="img/PrimeraCosa.jpg"  alt="">
+                            <div class="card-body  text-center">
+                                <p class="card-text">1.Conoce las recomendaciones de tus invitados desde el inicio</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-auto">
+                        <div class="card border-0 style-tercero">
+                            <img class="img-fluid" src="img/SegundaCosa.jpg" alt="">
+                            <div class="card-body  style-tercero text-center">
+                                <p class="card-text">2.Forma grupos de apoyo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  border-0">
+                            <img class="img-fluid" src="img/TerceraCosa.jpg" alt="">
+                            <div class="card-body text-center">
+                                <p class="card-text">3.Mantén un contacto directo con tus invitados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <section class="tercera parte">
+            <div class="row justify-content-center" >
+                <div class="thumbnail ">
+                    <img  src="img/SegundaCosa.jpg" width="1517px" alt="" class="img-fluid">
+                    <div class=" caption2 style-cuarto row-medio2 db-trans">
+                        <p>"Haz que tu reunión sea el mejor para tus invitados"</p>
+                    </div>
+                </div>
+            </div>
+    </section>
 </main>
 
-<section class="container" id="containerPlanPro">
-    <div class="row align-items-center">
-        <div class="col" id="col-infoPro">
-            <div id="infoPro">
-                <h3>Plan Pro</h3>
-                <h4>Beneficios</h4>
-                <ul>
-                    <li>Número de participantes ilimitados a tus reuniones</li>
-                    <li>Estadísticas exactas sobre tus reuniones</li>
-                    <li>Ingreso monetario por descarga de código</li>
-                    <li>Mayor proporción de tus reuniones</li>
-                </ul>
-
-                <button  id="btn_conoceMas" type="button">Conoce más</button>
-            </div>
-        </div>
-
-        <div class="col" id="col-imgContainer" >
-            <div id="imgContainer">
-                <img id="proImg" class="" src="img/sobre_pro.png" alt="Personas en una reunión">
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SECCIÓN DE DESCARGA -->
 <section class="container" id="containerDescarga">
     <div class="row">
         <div class="col-6 row justify-content-center align-items-center text-center" id="izquierda">
@@ -155,7 +182,9 @@
     </section>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>
