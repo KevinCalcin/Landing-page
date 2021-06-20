@@ -1,0 +1,140 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+
+@font-face{
+    font-family: CB;
+    src: url(CB.ttf);
+
+}
+
+@font-face {
+    font-family: CR;
+    src: url(C.ttf);
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.bg-purple {
+    background: #B08EF7;
+}
+
+
+.navbar li  {
+    border-width:0px;
+    margin: 0px;
+}
+
+
+.navbar {
+    border:  0px;
+    padding: 0px;
+}
+
+.navbar-right {          /*queda */
+    position: relative;
+    left: 78%;
+    transform: translatex(-78%);
+}
+
+.style-text {             /*queda*/
+
+    text-decoration: none;
+    font-family:CB;
+    font-size:23px;
+    border:0px;
+}
+
+.style-text li a{             /*queda*/
+    color: black;
+    padding: 28px;
+
+}
+
+
+.style-text2 {             /*queda*/
+    text-decoration: none;
+    font-family:CB;
+    font-size:28px;
+    border:0px;
+    background: #B08EF7;
+}
+
+.style-text2 li a{
+    text-align: center;
+    color: white;
+}
+
+.navbar-right li{
+    border-radius: 4px;
+    background: rebeccapurple;
+    margin-right:  20px;
+    color:white;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    color: black;
+    background: mediumpurple;
+}
+
+.style-REUM {
+    font-family:CB;
+    color: white;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 5vw;
+    left: 20vw;
+    font-size: 5vw;
+}
+
+.style-segundo {
+    font-family:CB;
+    color: black;
+    font-size: 30.72px;
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.row-medio {
+width: 27vw;
+}
+
+.style-componentes {
+    margin: 50px;
+    border: 0px;
+}
+
+.style-tercero {
+ padding-top: 4vw ;
+    padding-bottom:4vw ;
+}
+
+.style-text3 {             /*queda*/
+    text-decoration: none;
+    font-family:CR;
+    font-size:28px;
+    border:0px;
+}
+
+.caption2 {
+    position: absolute;
+    top: 14vw;
+    left: 27vw;
+    font-size: 3.6458333333333335vw;
+}
+.style-cuarto {
+    font-family:CR;
+    color: black;
+    text-align: center;
+    background: rgba(255,255,255,0.5)
+}
+.row-medio2 {
+    width: 45vw;
+}
