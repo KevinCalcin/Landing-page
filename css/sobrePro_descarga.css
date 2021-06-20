@@ -1,0 +1,95 @@
+/*Sobre Pro y descarga*/
+
+.container + .container {
+    margin-top: 3%;
+}
+
+/*color de texto para el h3*/
+#infoPro h3 {
+    color: #4B2A92;
+}
+
+#col-imgContainer {
+    padding: 0;
+}
+
+/* Para centrar la imagen*/
+#imgContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#proImg {
+    width: 100%;
+    border-radius: 5%;
+}
+
+#btn_conoceMas {
+    border-radius: 7px;
+    float: right;
+    background-color: #4B2A92;
+    color: #fff;
+    padding: 1.5% 2%;
+}
+
+#btn_conoceMas:hover {
+    background-color: #a17afc;
+}
+
+/*Sección de descarga*/
+#containerDescarga {
+    margin-bottom: 3%;
+}
+
+/*Botones de descarga*/
+#contenedor_cta {
+    width: 50%;
+}
+
+.btnDescarga {
+    width: 55%;
+    margin: 2% auto;
+}
+
+.btnDescarga img {
+    width: 100%;
+}
+/*-----------------*/
+
+#izquierda {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+/*Imagen*/
+#derecha {
+    padding: 0;
+}
+
+#contenedor_imgDescarga img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
