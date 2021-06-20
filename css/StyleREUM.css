@@ -138,3 +138,19 @@ width: 27vw;
 .row-medio2 {
     width: 45vw;
 }
+
+#FotoPlanPro {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 44px;
+}
+
+body{
+    font-family: CR;
+    font-size: 28px;
+    text-decoration: none;
+}
