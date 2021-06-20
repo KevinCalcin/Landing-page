@@ -31,10 +31,11 @@
     padding: 0px;
 }
 
+
 .navbar-right {          /*queda */
     position: relative;
-    left: 78%;
-    transform: translatex(-78%);
+    left: 75%;
+    transform: translatex(-75%);
 }
 
 .style-text {             /*queda*/
