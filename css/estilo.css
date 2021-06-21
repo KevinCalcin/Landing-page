@@ -3,13 +3,6 @@
     padding: 5px;         /* todos los elementos estan juntos, no hay espacio*/
     margin: 5px;
 }
-body {
-    background-image: url("../img/fruit.jpg");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    margin-top: 0px;
-}
 
 #titulo {
     /*border: blueviolet 10px solid;*/
@@ -26,6 +19,7 @@ body {
     font-size: 50px; /* cambiar taamñod e letra*/
 }
 
+
 h3, h1, h5 {        /* modificar a varios elementos*/
     color: blue; /* Esto modifica a todos los h3 que hay*/
 }
@@ -36,6 +30,7 @@ h3, h1, h5 {        /* modificar a varios elementos*/
 main p {
     background-color: antiquewhite;  /* Modifica al p que esta dentro de un main, no al que esta afuera*/
     color: #7115ff;
+
 }
 
 a {

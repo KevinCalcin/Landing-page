@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="defd637c-c0be-4379-8871-a2427fc231a2" name="Default Changelist" comment="Hola">
+    <list default="true" id="defd637c-c0be-4379-8871-a2427fc231a2" name="Default Changelist" comment="cambio">
+      <change afterPath="$PROJECT_DIR$/css/AcercaDe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/araceli.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/christofer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/gonzalo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jorge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/kevin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_06_2021_4_13_p__m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_06_2021_4_13_p__m___Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/avance.html" beforeDir="false" afterPath="$PROJECT_DIR$/avance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/StyleREUM.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/StyleREUM.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilo.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -16,6 +33,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/avance.html" root0="FORCE_HIGHLIGHTING" />
@@ -34,6 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -92,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Hola" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hola" />
+    <MESSAGE value="cambio" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambio" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
