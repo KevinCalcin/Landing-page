@@ -1,3 +1,8 @@
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .zone {
     color: black;
@@ -60,9 +65,10 @@ body {
 .blue {
     background: #6F8AED;
 }
+
+
 p{
     padding: 15px;
-
 }
 .ca .card{
     border-radius: 70%;
@@ -79,7 +85,31 @@ h4 {
     border-color: white;
 }
 
-p{
+.a {
+    font-family: CR;
     font-size: 18px;
+    text-align: center;
 }
 
+.b {
+    font-family: CR;
+    font-size: 1.49vw;
+}
+
+.c {
+    font-family: CR;
+    font-size: 1.49vw;
+}
+.e {
+
+    margin-bottom: 100px;
+}
+
+.nosotros {
+    border: black 0px solid;
+    width: 65vw;
+}
+.fw-bold {
+    border: black 0px solid;
+    width: 10vw;
+}
