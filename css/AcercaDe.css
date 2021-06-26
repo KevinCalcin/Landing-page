@@ -106,10 +106,13 @@ h4 {
 }
 
 .nosotros {
-    border: black 0px solid;
+    border: black 0 solid;
     width: 65vw;
 }
 .fw-bold {
-    border: black 0px solid;
+    border: black 0 solid;
     width: 10vw;
+}
+.fs-5 {
+    font-family:CR;
 }
