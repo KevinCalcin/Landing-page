@@ -12,7 +12,7 @@
 }
 
 .container-fluid {
-    padding: 0px;
+    padding: 0;
 }
 
 .bg-purple {
@@ -24,14 +24,14 @@
 
 
 .navbar li  {
-    border-width:0px;
-    margin: 0px;
+    border-width:0;
+    margin: 0;
 }
 
 
 .navbar {
-    border:  0px;
-    padding: 0px;
+    border:  0;
+    padding: 0;
 }
 
 
@@ -112,7 +112,7 @@ width: 27vw;
 
 .style-componentes {
     margin: 50px;
-    border: 0px;
+    border: 0;
 }
 
 .style-tercero {
@@ -124,7 +124,7 @@ width: 27vw;
     text-decoration: none;
     font-family:CR;
     font-size:28px;
-    border:0px;
+    border:0;
 }
 
 .caption2 {
